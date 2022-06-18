@@ -22,7 +22,7 @@ const Singnin = () => {
     if (activeItem === "register") {
       createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-          navigate("/post");
+          navigate("/");
           const user = userCredential.user;
           console.log(user);
           setIsLoading(false);
@@ -69,7 +69,7 @@ const Singnin = () => {
     } else if (activeItem === "signin") {
       signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-          navigate("/post");
+          navigate("/");
           const user = userCredential.user;
           console.log(user);
           setIsLoading(false);

@@ -90,7 +90,7 @@ const NewPost = () => {
                 email: user.email,
               },
             }).then(() => {
-              navigate("/post");
+              navigate("/");
               setIsLoading(false);
             });
           });

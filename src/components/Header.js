@@ -52,7 +52,7 @@ const Header = () => {
 
   return (
     <Menu>
-      <Menu.Item as={Link} to="/post">
+      <Menu.Item as={Link} to="/">
         Social Cool
       </Menu.Item>
       <Menu.Item>
