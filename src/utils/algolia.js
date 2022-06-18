@@ -1,9 +1,6 @@
 import algoliasearch from "algoliasearch";
 
-const client = algoliasearch(
-  process.env.APPLICATION_ID,
-  process.env.SEARCH_ONLY_API_KEY
-);
+const client = algoliasearch("QEAD1T33OX", "fa4c994d19844a6a60e34a2b7371e3ff");
 
 const algolia = client.initIndex("socialcool");
 
